@@ -1,0 +1,21 @@
+DEFINE CLASS Socio_db AS Custom
+
+*METODOS
+FUNCTION  guardar
+ LPARAMETERS soc
+INSERT INTO socios (apellido, domicilio, email, id_estado, nombre, numero, telefono);
+VALUES(soc.cApellido, soc.cDomicilio, soc.cemail, soc.iEstado, soc.cNombre,soc.cTelefono)
+ENDFUNC
+ENDDEFINE
+
+DEFINE CLASS Socio AS Custom
+cApellido=""
+cDomicilio=""
+cEmail = ""
+iId = 0
+iEstado = 0
+cNombreEstado=""
+cNombre=""
+cNumero =""
+cTelefono=""
+ENDDEFINE 

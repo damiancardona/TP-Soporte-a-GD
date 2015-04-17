@@ -1,0 +1,4 @@
+Nombre de clase: Socio
+Propiedades:
+Metodos:
+Parametros:
