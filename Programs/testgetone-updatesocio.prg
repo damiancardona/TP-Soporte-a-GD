@@ -5,4 +5,5 @@ objnsocio.capellido = "Otro Apellod"
 objnsocio.cemail = "updatedmail@gmail.com"
 objnsocio.cTelefono = "32421334"
 objnsocio.cDomicilio = "Calle Falsa 123"
-?objsocio.modificarsocio(objnsocio)
+objsocio.modificarsocio(objnsocio)
+?objnsocio.nid
