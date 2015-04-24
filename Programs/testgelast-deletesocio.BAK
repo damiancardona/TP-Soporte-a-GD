@@ -1,0 +1,4 @@
+objsocio = NEWOBJECT("capadatosocio", "clasebiblioteca.vcx")
+
+objnsocio = objsocio.traerporlugar(0,"ult")
+?objsocio.elimina(objnsocio.nid)

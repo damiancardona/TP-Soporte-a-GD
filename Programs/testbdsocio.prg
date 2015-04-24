@@ -1,5 +1,5 @@
-objsocio = NEWOBJECT("capadatosocio", "c:\users\damian\documents\visual foxpro projects\tp\class\clasebiblioteca.vcx")
-objnsocio = NEWOBJECT("capanegsocio", "c:\users\damian\documents\visual foxpro projects\tp\class\clasebiblioteca.vcx")
+objsocio = NEWOBJECT("capadatosocio", "clasebiblioteca.vcx")
+objnsocio = NEWOBJECT("capanegsocio", "clasebiblioteca.vcx")
 objnsocio.cNombre = "Federico"
 objnsocio.capellido = "Garzol"
 objnsocio.cemail = "fedegarza@gmail.com"
