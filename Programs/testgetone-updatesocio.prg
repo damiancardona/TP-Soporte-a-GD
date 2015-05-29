@@ -1,9 +1,0 @@
-objsocio = NEWOBJECT("capadatosocio", "clasebiblioteca.vcx")
-objnsocio = objsocio.traeuno(2)
-objnsocio.cNombre = "Nombre Cambiado"
-objnsocio.capellido = "Otro Apellod"
-objnsocio.cemail = "updatedmail@gmail.com"
-objnsocio.cTelefono = "32421334"
-objnsocio.cDomicilio = "Calle Falsa 123"
-objsocio.modificarsocio(objnsocio)
-?objnsocio.nid

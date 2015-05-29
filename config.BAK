@@ -1,3 +1,17 @@
-SET PATH TO "c:\users\damian\documents\visual foxpro projects\tp\class\", "c:\users\damian\documents\visual foxpro projects\tp\data\", "c:\users\damian\documents\visual foxpro projects\tp\Programs\", "c:\users\damian\documents\visual foxpro projects\tp\"
+LOCAL bDev
+bDev = .T.
+IF bDev
 
-SET CLASSLIB TO clasebiblioteca.vcx
+	SET DEFAULT TO "c:\fox\g19\tp\"
+	SET PATH TO "c:\fox\g19\tp\class\", "c:\fox\g19\tp\data\", "c:\fox\g19\tp\Programs\", "c:\fox\g19\tp\"
+	SET CLASSLIB TO clasebiblioteca.vcx
+	SET DELETED ON
+
+ELSE
+
+	SET DEFAULT TO "c:\fox\g19\tp\"
+	SET PATH TO "c:\fox\g19\tp\class\", "c:\fox\g19\tp\data\", "c:\fox\g19\tp\Programs\", "c:\fox\g19\tp\"
+	SET CLASSLIB TO clasebiblioteca.vcx
+	SET DELETED ON
+
+ENDIF
